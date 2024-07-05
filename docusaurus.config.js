@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/website-undraw.png',
+      image: 'img/logo.svg',
       navbar: {
         title: 'mostafas navbar',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/website-undraw.png',
+          alt: 'My Site',
+          src: '/img/logo.svg', // Ensure this path is correct
         },
         items: [
           {
