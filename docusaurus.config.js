@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'el desha site',
   tagline: 'Dinosaurs are not cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/website-undraw.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -66,22 +66,22 @@ const config = {
       // Replace with your project's social card
       image: 'img/website-undraw.png',
       navbar: {
-        title: 'My Site',
+        title: 'mostafas navbar',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/website-undraw.svg',
+          src: 'img/website-undraw.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'tutorial changed',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Github ver.2',
             position: 'right',
           },
         ],
