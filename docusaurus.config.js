@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'el desha site',
-  tagline: 'Dinosaurs are not cool',
-  favicon: 'img/website-undraw.ico',
+  title: 'IOT research lab',
+  tagline: 'we make the future',
+  favicon: 'img/download.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.svg',
+      image: 'img/download.svg',
       navbar: {
-        title: 'mostafas navbar',
+        title: 'home',
         logo: {
-          alt: 'My Site',
-          src: '/img/logo.svg', // Ensure this path is correct
+          alt: 'IOT research lab',
+          src: '/img/download.svg', // Ensure this path is correct
         },
         items: [
           {
