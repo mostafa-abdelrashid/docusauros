@@ -1,5 +1,7 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
+import React from 'react'; 
+import Layout from '@theme/Layout'; 
+import clsx from 'clsx'; 
+import Heading from '@theme/Heading'; 
 import styles from './styles.module.css';
 
 const FeatureList = [
@@ -76,14 +78,22 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
+    <Layout title="Home">
+      <header className={styles.heroBanner}>
+        <h1 className={styles.heroTitle}>Welcome to the Home Page</h1>
+        <p className={styles.heroSubtitle}>This is the home page with a custom background image.</p>
+      </header>
+      <main>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              {FeatureList.map((props, idx) => (
+                <Feature key={idx} {...props} />
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+    </Layout>
   );
 }

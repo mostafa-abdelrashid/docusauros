@@ -1,0 +1,20 @@
+/* src/pages/customPage.module.css */
+.heroBanner {
+    background-image: url('/img/background.png'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  

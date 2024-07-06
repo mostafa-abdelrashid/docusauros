@@ -72,6 +72,7 @@ const config = {
           src: '/img/download.svg', // Ensure this path is correct
         },
         items: [
+         
           {to: '/docs/join-us', label: 'join us', position: 'left'},
           {to: '/docs/people', label: 'people', position: 'left'},
           
@@ -88,15 +89,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
+     
           {
             title: 'Community',
             items: [
