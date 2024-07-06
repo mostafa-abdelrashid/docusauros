@@ -72,9 +72,9 @@ const config = {
           src: '/img/download.svg', // Ensure this path is correct
         },
         items: [
-   
-          {to: '/docs/people', label: 'people', position: 'left'},
           {to: '/docs/join-us', label: 'join us', position: 'left'},
+          {to: '/docs/people', label: 'people', position: 'left'},
+          
           {to: '/docs/publications', label: 'publications', position: 'left'},
           {to: '/docs/research', label: 'Research', position: 'left'},
           {
