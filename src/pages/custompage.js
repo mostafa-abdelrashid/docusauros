@@ -7,8 +7,8 @@ function CustomPage() {
   return (
     <Layout title="Custom Page">
       <header className={styles.heroBanner}>
-        <h1 className={styles.heroTitle}>Welcome to Custom Page</h1>
-        <p className={styles.heroSubtitle}>This is a custom page with a background image.</p>
+        <h1  className={styles.heroTitle}>IOT research lab</h1>
+        <p className={styles.heroSubtitle}>We make the future</p>
       </header>
       <main>
         { 'trial' }

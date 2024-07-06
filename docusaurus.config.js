@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IOT research lab',
+  title: 'IOT reseeeeeearch lab ',
   tagline: 'we make the future',
   favicon: 'img/download.ico',
 
@@ -68,7 +68,7 @@ const config = {
       navbar: {
         title: 'home',
         logo: {
-          alt: 'IOT research lab',
+          alt: 'IOT ressssssearch lab',
           src: '/img/download.svg', // Ensure this path is correct
         },
         items: [

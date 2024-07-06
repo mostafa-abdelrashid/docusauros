@@ -5,7 +5,7 @@
   background-image: url('/img/background.png'); /* Path to your image */
   background-size: cover;
   background-position: center;
-  color: white;
+  color: rgb(251, 143, 41);
   padding: 100px 0;
   text-align: center;
 }

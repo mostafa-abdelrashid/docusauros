@@ -80,8 +80,8 @@ export default function HomepageFeatures() {
   return (
     <Layout title="Home">
       <header className={styles.heroBanner}>
-        <h1 className={styles.heroTitle}>Welcome to the Home Page</h1>
-        <p className={styles.heroSubtitle}>This is the home page with a custom background image.</p>
+        <h1 className={styles.heroTitle}>IOT research laeeeeeeb</h1>
+        <p className={styles.heroSubtitle}>We make the future</p>
       </header>
       <main>
         <section className={styles.features}>
