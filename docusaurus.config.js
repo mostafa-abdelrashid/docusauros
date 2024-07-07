@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IOT reseeeeeearch lab ',
+  title: 'IOT research lab',
   tagline: 'we make the future',
   favicon: 'img/download.ico',
 
@@ -68,28 +68,48 @@ const config = {
       navbar: {
         title: 'home',
         logo: {
-          alt: 'IOT ressssssearch lab',
+          alt: 'IOT research lab',
           src: '/img/download.svg', // Ensure this path is correct
         },
         items: [
-         
-          {to: '/docs/join-us', label: 'join us', position: 'left'},
-          {to: '/docs/people', label: 'people', position: 'left'},
-          
-          {to: '/docs/publications', label: 'publications', position: 'left'},
-          {to: '/docs/research', label: 'Research', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'people', // Changed from 'people' to 'Documentation'
+          },
+          { to: '/blog', label: 'Research', position: 'left' }, 
           {
             href: 'https://github.com/IoTResearchLab',
             label: 'GitHub ',
             position: 'right',
           },
-       
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'publications', 
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'join us', 
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-     
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'docs',
+                to: '/docs/research',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
