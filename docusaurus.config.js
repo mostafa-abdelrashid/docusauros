@@ -72,41 +72,28 @@ const config = {
           src: '/img/download.svg', // Ensure this path is correct
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'people', // Changed from 'people' to 'Documentation'
-          },
-          { to: '/blog', label: 'Research', position: 'left' }, 
+          {to: '/docs/join-us', label: 'join us', position: 'left'},
+          {to: '/docs/people', label: 'people', position: 'left'},
+          {to: '/blog', label: 'blog', position: 'right'},
+          {to: '/docs/publications', label: 'publications', position: 'left'},
+          {to: '/docs/research', label: 'Research', position: 'left'},
           {
             href: 'https://github.com/IoTResearchLab',
             label: 'GitHub ',
             position: 'right',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'publications', 
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'join us', 
-          },
+       
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'join us',
             items: [
               {
-                label: 'docs',
-                to: '/docs/research',
+                label: 'join now',
+                to: '/docs/join-us',
               },
             ],
           },
