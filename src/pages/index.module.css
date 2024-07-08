@@ -23,28 +23,20 @@
 }
 /* src/pages/index.module.css */
 
+
 /* Styles for the custom header section */
 .heroBanner {
   position: relative;
   background-image: url('/img/background.png'); /* Path to your image */
   background-size: cover;
   background-position: center;
-  color: white;
+  color: rgba(255, 98, 14, 0.815);
   padding: 100px 0;
   text-align: center;
 }
 
 /* Optional: Add an overlay for better text visibility */
-.heroBanner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
-  z-index: 0;
-}
+
 
 .container {
   position: relative;
